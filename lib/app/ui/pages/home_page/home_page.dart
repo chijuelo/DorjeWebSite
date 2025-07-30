@@ -38,36 +38,20 @@ class HomePage extends GetView<HomeController> {
                     ),
                     video(
                       control: _,
-                      padding: EdgeInsets.only(top: Get.height * 1.5),
+                      padding: EdgeInsets.only(top: Get.height * 1.1),
                       name: 'v2',
-                    ),
-                    video(
-                      control: _,
-                      padding: EdgeInsets.only(top: Get.height * 2.2),
-                      name: 'v3',
-                    ),
-                    video(
-                      control: _,
-                      padding: EdgeInsets.only(top: Get.height * 4.7),
-                      name: 'v4',
-                    ),
-                    video(
-                      control: _,
-                      padding: EdgeInsets.only(
-                          top: Get.height * 5.8, right: Get.width * 0.04),
-                      name: 'v5',
-                    ),
-                    video(
-                      control: _,
-                      padding: EdgeInsets.only(top: Get.height * 6.9),
-                      name: 'v6',
                     ),
                     texto3(),
                     mission(),
+                    video(
+                      control: _,
+                      padding: EdgeInsets.only(top: Get.height * 1.8),
+                      name: 'v3',
+                    ),
                     productText(),
                     imgConLineaText(
                         img: 'images/linieros.png',
-                        top: 2.6,
+                        top: 2.2,
                         title:
                             'PLATAFORMA PARA INTERACCIÓN “INTELIGENTE” CON LA INFORMACIÓN',
                         texts: [
@@ -78,7 +62,7 @@ class HomePage extends GetView<HomeController> {
                         ]),
                     imgConLineaText(
                         img: 'images/cartaMap.png',
-                        top: 3.3,
+                        top: 2.8,
                         title:
                             'APLICACIÓN PARA ADQUISICIÓN DE DATOS EN EL TERRENO',
                         texts: [
@@ -89,7 +73,7 @@ class HomePage extends GetView<HomeController> {
                         ]),
                     imgConLineaText(
                         img: 'images/chapas.png',
-                        top: 4.2,
+                        top: 3.4,
                         title:
                             'ETIQUETAS PARA IDENTIFICAR ELEMENTOS EN EL TERRENO',
                         texts: [
@@ -97,12 +81,28 @@ class HomePage extends GetView<HomeController> {
                           'Con códigos de lectura automática: códigos de barras, QR, RFID',
                           'Personalizables',
                         ]),
+                    video(
+                      control: _,
+                      padding: EdgeInsets.only(top: Get.height * 4),
+                      name: 'v4',
+                    ),
                     servicesText(),
                     servicesList(),
+                    video(
+                      control: _,
+                      padding: EdgeInsets.only(
+                          top: Get.height * 4.8, right: Get.width * 0.04),
+                      name: 'v5',
+                    ),
                     exitosText(),
                     exitosList(_),
                     texto5(),
                     texto5_1(),
+                    video(
+                      control: _,
+                      padding: EdgeInsets.only(top: Get.height * 5.8),
+                      name: 'v6',
+                    ),
                     contactText(),
                     contactInfo(),
                   ],
@@ -203,7 +203,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget texto3() {
     return Padding(
-      padding: EdgeInsets.only(left: Get.width * 0.056, top: Get.height * 1.27),
+      padding: EdgeInsets.only(left: Get.width * 0.056, top: Get.height),
       child: Align(
         alignment: Alignment.center,
         child: SizedBox(
@@ -226,7 +226,7 @@ class HomePage extends GetView<HomeController> {
   Widget mission() {
     return Padding(
       padding: EdgeInsets.only(
-          top: Get.height * 1.5, left: Get.width * 0.1, right: Get.width * 0.1),
+          top: Get.height * 1.2, left: Get.width * 0.1, right: Get.width * 0.1),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -267,7 +267,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget productText() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 2.3),
+      padding: EdgeInsets.only(top: Get.height * 1.9),
       child: Align(
         alignment: Alignment.center,
         child: Text(
@@ -392,7 +392,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget servicesText() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 5),
+      padding: EdgeInsets.only(top: Get.height * 4.1),
       child: Align(
         alignment: Alignment.center,
         child: Text(
@@ -412,7 +412,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget servicesList() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 5.2, left: Get.width * 0.37),
+      padding: EdgeInsets.only(top: Get.height * 4.4, left: Get.width * 0.37),
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Row(
@@ -473,7 +473,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget exitosText() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 6),
+      padding: EdgeInsets.only(top: Get.height * 4.9),
       child: Align(
         alignment: Alignment.center,
         child: Text(
@@ -505,7 +505,7 @@ class HomePage extends GetView<HomeController> {
     // );
 
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 6.2),
+      padding: EdgeInsets.only(top: Get.height * 5.15),
       child: CarouselSlider(
           items: [
             Image.asset(
@@ -582,7 +582,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget texto5() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 6.5),
+      padding: EdgeInsets.only(top: Get.height * 5.5),
       child: Align(
         alignment: Alignment.center,
         child: SizedBox(
@@ -604,7 +604,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget texto5_1() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 6.65),
+      padding: EdgeInsets.only(top: Get.height * 5.65),
       child: Align(
         alignment: Alignment.center,
         child: SizedBox(
@@ -626,7 +626,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget contactText() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 7.2),
+      padding: EdgeInsets.only(top: Get.height * 6),
       child: Align(
         alignment: Alignment.center,
         child: Text(
@@ -646,7 +646,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget contactInfo() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 7.5),
+      padding: EdgeInsets.only(top: Get.height * 6.3),
       child: Align(
         alignment: Alignment.center,
         child: Container(
