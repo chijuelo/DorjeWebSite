@@ -71623,7 +71623,7 @@ p.toString
 A.D(p).toString
 r=r.d
 if(r==null){r=self.window.devicePixelRatio
-if(r===0)r=1}return new A.bO(c,A.e0(new A.J4("assets/"+b+".mp4",null),s.S(0,r).b,q.a),null)},
+if(r===0)r=1}return new A.bO(c,A.e0(new A.J4("assets/videos/"+b+".mp4",null),s.S(0,r).b,q.a),null)},
 By(a,b){var s,r,q,p,o,n,m,l=null
 $.bn()
 s=$.A().xr
