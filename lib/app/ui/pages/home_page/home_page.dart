@@ -67,7 +67,7 @@ class HomePage extends GetView<HomeController> {
                     productText(),
                     imgConLineaText(
                         img: 'images/linieros.png',
-                        top: 2.4,
+                        top: 2.6,
                         title:
                             'PLATAFORMA PARA INTERACCIÓN “INTELIGENTE” CON LA INFORMACIÓN',
                         texts: [
@@ -412,7 +412,7 @@ class HomePage extends GetView<HomeController> {
 
   Widget servicesList() {
     return Padding(
-      padding: EdgeInsets.only(top: Get.height * 5.08, left: Get.width * 0.37),
+      padding: EdgeInsets.only(top: Get.height * 5.2, left: Get.width * 0.37),
       child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Row(
