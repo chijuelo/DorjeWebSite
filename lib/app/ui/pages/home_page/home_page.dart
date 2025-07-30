@@ -194,7 +194,7 @@ class HomePage extends GetView<HomeController> {
         width: Get.width,
         height: Get.height,
         child: WebVideoPlayer(
-          url: 'assets/$name.mp4',
+          url: 'assets/videos/$name.mp4',
         ),
       ),
     );
