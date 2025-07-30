@@ -105,11 +105,6 @@ class HomePage extends GetView<HomeController> {
                     texto5_1(),
                     contactText(),
                     contactInfo(),
-                    // Positioned(
-                    //   top: 16,
-                    //   left: 16,
-                    //   child: logo(_),
-                    // ),
                   ],
                 ),
               ),
