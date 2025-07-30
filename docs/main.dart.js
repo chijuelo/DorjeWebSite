@@ -72313,7 +72313,7 @@ a1=r.d
 if(a1==null){a1=self.window.devicePixelRatio
 if(a1===0)a1=1}a1=A.eT("PRODUCTOS",b9,b9,A.da(b9,b9,B.i,b9,b9,b9,b9,b9,c0,b9,b9,a0.b*0.18,b9,b9,B.bD,b9,b9,!0,b9,b.S(0,a1).a*0.03,b9,b9,b9,b9,b9,b9),B.ax,b9)
 b=t.s
-a0=c2.B8("images/linieros.png",A.b(["Inventario de elementos en el terreno","An\xe1lisis topol\xf3gico de objetos de inter\xe9s","Planificaci\xf3n de expansi\xf3n de presencia en el terreno","Gesti\xf3n din\xe1mica de relaciones con el entorno"],b),"PLATAFORMA PARA INTERACCI\xd3N \u201cINTELIGENTE\u201d CON LA INFORMACI\xd3N",2.4)
+a0=c2.B8("images/linieros.png",A.b(["Inventario de elementos en el terreno","An\xe1lisis topol\xf3gico de objetos de inter\xe9s","Planificaci\xf3n de expansi\xf3n de presencia en el terreno","Gesti\xf3n din\xe1mica de relaciones con el entorno"],b),"PLATAFORMA PARA INTERACCI\xd3N \u201cINTELIGENTE\u201d CON LA INFORMACI\xd3N",2.6)
 a2=c2.B8("images/cartaMap.png",A.b(["Validaci\xf3n de datos capturados en tiempo real","Basado en la nube","Basado en captura en cuadrillas","Ambiente usable y amigable pensado en disminuir el esfuerzo y la posibilidad de errores"],b),"APLICACI\xd3N PARA ADQUISICI\xd3N DE DATOS EN EL TERRENO",3.3)
 b=c2.B8("images/chapas.png",A.b(["Resistentes al intemperismo","Con c\xf3digos de lectura autom\xe1tica: c\xf3digos de barras, QR, RFID","Personalizables"],b),"ETIQUETAS PARA IDENTIFICAR ELEMENTOS EN EL TERRENO",4.2)
 a3=$.A().xr
@@ -72526,7 +72526,7 @@ b8.toString
 A.D(b8).toString
 b8=r.d
 if(b8==null){b8=self.window.devicePixelRatio
-if(b8===0)b8=1}c2=A.ag4(A.q8(B.c4,A.b([q,new A.bO(new A.az(0,p.b*0.1,0,0),j,b9),s,o,n,l,m,new A.bO(new A.az(k.a*0.056,i.b*1.27,0,0),new A.cR(B.L,b9,b9,f,b9),b9),new A.bO(new A.az(e.a*0.1,h.b*1.5,c.a*0.1,0),d,b9),new A.bO(new A.az(0,a.b*2.3,0,0),new A.cR(B.L,b9,b9,a1,b9),b9),a0,a2,b,new A.bO(new A.az(0,a4.b*5,0,0),new A.cR(B.L,b9,b9,a6,b9),b9),new A.bO(new A.az(a7.a*0.37,a5.b*5.08,0,0),a3,b9),new A.bO(new A.az(0,a9.b*6,0,0),new A.cR(B.L,b9,b9,b1,b9),b9),a8,new A.bO(new A.az(0,b2.b*6.5,0,0),new A.cR(B.L,b9,b9,b3,b9),b9),new A.bO(new A.az(0,b0.b*6.65,0,0),new A.cR(B.L,b9,b9,b4,b9),b9),new A.bO(new A.az(0,b5.b*7.2,0,0),new A.cR(B.L,b9,b9,A.eT("CONT\xc1CTENOS",b9,b9,A.da(b9,b9,B.i,b9,b9,b9,b9,b9,c0,b9,b9,b6.b*0.18,b9,b9,B.bD,b9,b9,!0,b9,b7.S(0,b8).a*0.03,b9,b9,b9,b9,b9,b9),B.ax,b9),b9),b9),c2.a4v()],g),B.dE),B.bg)
+if(b8===0)b8=1}c2=A.ag4(A.q8(B.c4,A.b([q,new A.bO(new A.az(0,p.b*0.1,0,0),j,b9),s,o,n,l,m,new A.bO(new A.az(k.a*0.056,i.b*1.27,0,0),new A.cR(B.L,b9,b9,f,b9),b9),new A.bO(new A.az(e.a*0.1,h.b*1.5,c.a*0.1,0),d,b9),new A.bO(new A.az(0,a.b*2.3,0,0),new A.cR(B.L,b9,b9,a1,b9),b9),a0,a2,b,new A.bO(new A.az(0,a4.b*5,0,0),new A.cR(B.L,b9,b9,a6,b9),b9),new A.bO(new A.az(a7.a*0.37,a5.b*5.2,0,0),a3,b9),new A.bO(new A.az(0,a9.b*6,0,0),new A.cR(B.L,b9,b9,b1,b9),b9),a8,new A.bO(new A.az(0,b2.b*6.5,0,0),new A.cR(B.L,b9,b9,b3,b9),b9),new A.bO(new A.az(0,b0.b*6.65,0,0),new A.cR(B.L,b9,b9,b4,b9),b9),new A.bO(new A.az(0,b5.b*7.2,0,0),new A.cR(B.L,b9,b9,A.eT("CONT\xc1CTENOS",b9,b9,A.da(b9,b9,B.i,b9,b9,b9,b9,b9,c0,b9,b9,b6.b*0.18,b9,b9,B.bD,b9,b9,!0,b9,b7.S(0,b8).a*0.03,b9,b9,b9,b9,b9,b9),B.ax,b9),b9),b9),c2.a4v()],g),B.dE),B.bg)
 b8=$.A().xr
 b8=$.m.u$.z.i(0,b8)
 b8.toString
