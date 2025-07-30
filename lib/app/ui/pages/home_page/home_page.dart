@@ -117,8 +117,9 @@ class HomePage extends GetView<HomeController> {
   Widget logo(HomeController _) {
     return Padding(
       padding: EdgeInsets.only(top: Get.height * 0.03, left: Get.height * 0.04),
-      child: SizedBox(
-        width: Get.width * 0.25,
+      child: Container(
+        color: Colors.black54,
+        width: Get.width * 0.2,
         child: InkWell(
           onTap: _.openDrawer,
           child: Row(
